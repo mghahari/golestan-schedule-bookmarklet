@@ -1,0 +1,29 @@
+{
+  "name": "golestan-schedule-bookmarklet",
+  "version": "1.0.0",
+  "description": "A bookmarklet for downloading golestan schedule.",
+  "main": "bookmarklet.js",
+  "scripts": {
+    "generate": "node generate-readme.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mghahari/golestan-calendar-bookmarklet.git"
+  },
+  "keywords": [
+    "bookmarklet",
+    "golestan",
+    "schedule",
+    "school",
+    "student"
+  ],
+  "author": "Mojtaba Ghahari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mghahari/golestan-calendar-bookmarklet/issues"
+  },
+  "homepage": "https://github.com/mghahari/golestan-calendar-bookmarklet#readme",
+  "dependencies": {
+    "terser": "^5.36.0"
+  }
+}
